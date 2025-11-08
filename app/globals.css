@@ -120,9 +120,14 @@ html {
   min-height: 46px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .nav-glass {
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: auto;
   }
 }
 
