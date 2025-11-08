@@ -1,0 +1,55 @@
+<svg width="960" height="720" viewBox="0 0 960 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="720" rx="48" fill="#06090F" />
+  <g opacity="0.45" filter="url(#glowAzure)">
+    <circle cx="260" cy="220" r="180" fill="#4285F4" />
+    <circle cx="720" cy="500" r="220" fill="#3E8BFF" />
+  </g>
+  <g stroke="#63A4FF" stroke-opacity="0.3" stroke-dasharray="6 14">
+    <path d="M140 160 H820" />
+    <path d="M140 240 H820" />
+    <path d="M140 320 H820" />
+    <path d="M140 400 H820" />
+    <path d="M140 480 H820" />
+    <path d="M140 560 H820" />
+    <path d="M220 120 V600" />
+    <path d="M340 120 V600" />
+    <path d="M460 120 V600" />
+    <path d="M580 120 V600" />
+    <path d="M700 120 V600" />
+    <path d="M820 120 V600" />
+  </g>
+  <g filter="url(#innerGlow)">
+    <rect x="270" y="170" width="420" height="260" rx="32" fill="#0B1222" stroke="#63A4FF" stroke-opacity="0.6" />
+    <rect x="320" y="220" width="320" height="80" rx="16" fill="#0D182F" stroke="#63A4FF" stroke-opacity="0.8" />
+    <path d="M360 260 H600" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.7" />
+    <path d="M360 300 H560" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.4" />
+    <rect x="320" y="330" width="320" height="72" rx="16" fill="#0D182F" stroke="#63A4FF" stroke-opacity="0.8" />
+    <path d="M360 370 H620" stroke="#63A4FF" stroke-width="6" stroke-linecap="round" opacity="0.8" />
+  </g>
+  <g>
+    <rect x="340" y="460" width="320" height="120" rx="24" fill="#0A1426" stroke="#63A4FF" stroke-opacity="0.6" />
+    <text x="500" y="508" text-anchor="middle" fill="#ffffff" font-family="'Inter', sans-serif" font-size="18" font-weight="600">
+      Azure Automation Orchestrator
+      <tspan x="500" dy="20" fill="#63A4FF" font-size="12">ARM · Bicep · DevOps Pipelines · Defender Integration</tspan>
+    </text>
+  </g>
+  <g opacity="0.8">
+    <path d="M720 220c48 0 86.8-39 86.8-87.2S768 45.6 720 45.6 633.2 84.6 633.2 132.8 672 220 720 220Z" fill="#ffffff"/>
+    <path d="M786 132.8l-66-106.4-66 106.4H786Z" fill="#63A4FF"/>
+  </g>
+  <defs>
+    <filter id="glowAzure" x="0" y="0" width="960" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="120" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+      </feMerge>
+    </filter>
+    <filter id="innerGlow" x="250" y="150" width="460" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

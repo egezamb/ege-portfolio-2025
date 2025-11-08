@@ -1,0 +1,42 @@
+<svg width="960" height="720" viewBox="0 0 960 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="720" rx="48" fill="#080808"/>
+  <g opacity="0.3" filter="url(#glow)">
+    <circle cx="180" cy="120" r="120" fill="#ff2740"/>
+    <circle cx="820" cy="520" r="160" fill="#ff6b6b"/>
+    <circle cx="640" cy="160" r="90" fill="#ff2740"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.25">
+    <path d="M80 160 H880"/>
+    <path d="M80 320 H880"/>
+    <path d="M80 480 H880"/>
+    <path d="M80 640 H880"/>
+    <path d="M160 80 V640"/>
+    <path d="M320 80 V640"/>
+    <path d="M480 80 V640"/>
+    <path d="M640 80 V640"/>
+    <path d="M800 80 V640"/>
+  </g>
+  <path d="M120 560 C220 400 360 360 440 440 C520 520 640 520 820 320" stroke="url(#gradient)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M280 220 L420 320 L540 240 L680 360" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <circle cx="280" cy="220" r="10" fill="#fff"/>
+  <circle cx="420" cy="320" r="10" fill="#fff"/>
+  <circle cx="540" cy="240" r="10" fill="#fff"/>
+  <circle cx="680" cy="360" r="10" fill="#fff"/>
+  <rect x="360" y="520" width="240" height="80" rx="16" fill="#111" stroke="#ff6b6b" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="480" y="552" text-anchor="middle" fill="#ffffff" font-family="'Inter', sans-serif" font-size="18" font-weight="600">
+    C2 Command Stream
+    <tspan x="480" dy="20" fill="#ff6b6b" font-size="12" font-weight="400">Encrypted jittered beacon</tspan>
+  </text>
+  <defs>
+    <linearGradient id="gradient" x1="120" y1="560" x2="820" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff2740"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="960" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
