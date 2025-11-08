@@ -15,6 +15,7 @@ type ProjectContent = {
   metrics: { label: string; value: string }[]
   image: string
   repo?: string
+  caseStudy?: string
   contributions: string
 }
 
